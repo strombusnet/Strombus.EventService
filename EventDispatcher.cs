@@ -198,7 +198,6 @@ namespace Strombus.EventService
                         else if (addCount == 0)
                         {
                             // we failed to add the event; error!
-                            /* TODO: log this as an error for the developers to look at! */
                         }
                         long connectionId = (long)addCountAndConnectionIdArray[1];
                         if (connectionId == -1)
